@@ -1,14 +1,18 @@
-var express = require('express');
+const express = require('express');
+const app = express();
 
-var app = express();
+app.set('view engine', 'pug');
 
-app.get('/', function(req, res) {
-  res.send('Hola mundo');
+app.use(express.static('public'));
+
+app.get('/', (req, res) => {
+  res.render('index');
 });
 
-app.listen(3000, function(err) {
+app.listen(3000, (err) => {
   if (err) {
     return console.log('Hubo un error') && process.exit(1);
   }
-  console.log('Escuchando en el puerto 3000');
+
+  return console.log('Escuchando en el puerto 3000');
 });

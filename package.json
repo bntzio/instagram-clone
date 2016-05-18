@@ -1,0 +1,39 @@
+{
+  "name": "instagram-clone",
+  "version": "0.1.0",
+  "description": "Instagram clone made with NodeJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bntzio/instagram-clone.git"
+  },
+  "keywords": [
+    "instagram-clone",
+    "javascript",
+    "nodejs"
+  ],
+  "author": "bntzio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bntzio/instagram-clone/issues"
+  },
+  "homepage": "https://github.com/bntzio/instagram-clone#readme",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-eslint": "^6.0.4",
+    "eslint": "^2.10.2",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.8.0",
+    "eslint-plugin-jsx-a11y": "^1.2.0",
+    "eslint-plugin-react": "^5.1.1",
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "eslint": "^2.10.2",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-react": "^5.1.1"
+  }
+}

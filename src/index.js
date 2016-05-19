@@ -1,13 +1,13 @@
-let numbers = [12, 100, 642, 98, 162, 753];
+const page = require('page');
 
-let getEvenNumbers = (obj) => {
-  let evenList = [];
-  obj.map((o) => {
-    if ((o % 2) === 0) {
-      evenList.push(o);
-    }
-  });
-  return alert(evenList);
-};
+let main = document.getElementById('main-container');
 
-getEvenNumbers(numbers);
+page('/', (ctx, next) => {
+  main.innerHTML = 'Home <a href="/signup">Signup</a>';
+});
+
+page('/signup', (ctx, next) => {
+  main.innerHTML = 'Signup <a href="/">Home</a>';
+});
+
+page();

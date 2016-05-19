@@ -4,7 +4,8 @@
   "description": "Instagram clone made with NodeJS",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp",
+    "start": "gulp watch & node server.js"
   },
   "repository": {
     "type": "git",
@@ -40,6 +41,7 @@
     "gulp": "^3.9.1",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.3.1",
-    "vinyl-source-stream": "^1.1.0"
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
   }
 }

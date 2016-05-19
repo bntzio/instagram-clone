@@ -10,7 +10,7 @@ let signupForm = yo`<div class="col s12 m7">
                       <h2>Register now!</h2>
                       <div class="section">
                         <a class="btn btn-fb hide-on-small-only">Log-in with Facebook</a>
-                        <a class="btn btn-fb hide-on-med-and-up">Log-in</a>
+                        <a class="btn btn-fb hide-on-med-and-up"><i class='fa fa-facebook-official' aria-hidden='true'></i> Log-in</a>
                       </div>
                       <div class="divider"></div>
                       <div class="section">

@@ -5,6 +5,6 @@ let template = require('./template');
 
 let main = document.getElementById('main-container');
 
-page('/signup', (ctx, next) => {
+page('/signin', (ctx, next) => {
   empty(main).appendChild(template);
 });
